@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;;
+    height: 100%;
+
+}
+
+.container{
+    background: linear-gradient(135deg, #8a2be2, #4169e1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+
+.content{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 600px;
+
+
+}
+
+.logo{
+    /* width: 160px; */
+    width: 10%;
+    height: 10%;
+    object-fit: contain;
+}
+
+h1{
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p{
+    color: #666;
+    margin-bottom: 20px;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+input[type="email"]{
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    border: 1px solid 
+}
+
+button{
+    padding: 0.5rem;
+    background-color: #8a2be2;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0.9);
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover{
+    /* background-color: #7a1dd1; */
+    background-color: #000;
+}
+
+.svg-elem{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 100px;
+}
